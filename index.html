@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit App</title>
+
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#000000">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+    <!-- HEADER -->
+    <div class="header">
+        <div class="profile">👤</div>
+        <div class="actions">
+            <button id="addHabit">＋</button>
+            <div class="settings">⚙️</div>
+        </div>
+    </div>
+
+    <!-- HABITS SCREEN -->
+    <div id="habitScreen" class="content"></div>
+
+    <!-- PROGRESS SCREEN -->
+    <div id="progressScreen" class="content hidden"></div>
+
+    <!-- FOOTER -->
+    <div class="footer" id="progressBtn">
+        Fortschritt
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
