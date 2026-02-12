@@ -1,4 +1,4 @@
-const CACHE_NAME = "habit-tracker-cache-v1";
+const CACHE_NAME = "habit-tracker-cache-v2";
 const urlsToCache = [
   "index.html",
   "style.css",
@@ -18,4 +18,5 @@ self.addEventListener("fetch", event => {
       .then(response => response || fetch(event.request))
   );
 });
+
 
